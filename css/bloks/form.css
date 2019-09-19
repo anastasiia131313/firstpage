@@ -1,0 +1,144 @@
+.form__coments{
+  margin-bottom: 50px;
+}
+
+.form {
+  background: #f5f5f5;
+  border-radius: 3px;
+  max-width: 700px;
+  min-height: 427px;
+  margin: 0 auto;
+  padding: 50px 7%;
+  
+}
+
+.form__title {
+/* width: 397px;
+height: 36px; */
+color: #221f1f;
+font-family: "Gotham Pro";
+font-size: 49px;
+font-weight: 700;
+/* line-height: 38px; */
+margin-bottom: 30px;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 21px;
+}
+
+.form__block{
+  margin-right: 23px;
+  flex: 1;
+  
+}
+
+.form__block:last-child{
+  margin-right: 0;
+}
+
+.form__block-title{
+/* font-family: "Gotham Pro"; */
+font-size: 14px;
+font-weight: 300;
+margin-bottom: 10px;
+}
+
+.form__input {
+  width: 100%; 
+  padding: 16px 9px;
+  background: #fff;
+  border: none;
+  border-radius: 3px;
+  box-sizing: border-box; 
+  outline: none;
+  border: 1px solid transparent; 
+
+color: #221f1f;
+font-size: 14px;
+font-weight: 300;
+
+}
+
+.form__input:focus {
+  border-color: #ec1e79; 
+  color: black;
+}
+
+.form__input--textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+.form__btn{
+min-width: 139px;
+min-height: 45px;
+background-color: #27273e;
+letter-spacing: 2.4px;
+color: #ffffff;
+/* font-family: "Gotham Pro"; */
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+border-radius: 3px;
+}
+
+.form__question{
+ width: 40%;
+}
+
+
+.form__buttons {
+  width: 60%;
+  text-align: end;
+}
+
+
+
+
+.form__radio-btn{
+  margin-right: 20px;
+  /* min-width: 55px; */
+  display: inline-flex;
+}
+/* .form__radio-btn:last-child{
+  margin-right: 0;
+} */
+
+.form__radio-btn-btn{
+ -webkit-appearance: none;
+}
+
+
+.form__radio-btn-visible{
+ display: flex;
+  border-radius: 50%;
+  border: 1px solid #c9c9c9;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.form__radio-btn-visible:before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.form__radio-btn-btn:checked + .form__radio-btn-visible {
+  border: 1px solid #ec1e79;
+}
+
+.form__radio-btn-btn:checked + .form__radio-btn-visible:before {
+  background-color: #ec1e79;
+}
+
+
+
+

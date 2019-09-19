@@ -1,0 +1,13 @@
+.header {
+  background: #27273e;
+  
+  }
+  
+.header__container{
+  display: flex;
+  min-height: 77px;
+}
+
+.header-prices__container {
+  margin-bottom: 50px;
+}

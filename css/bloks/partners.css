@@ -1,0 +1,11 @@
+.partners__title{
+  margin-left: 5px;
+}
+.partners__list{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.partners__list:nth-child(1){
+  margin-left: 0;
+}

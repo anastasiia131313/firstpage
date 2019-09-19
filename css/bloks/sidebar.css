@@ -1,0 +1,11 @@
+.sidebar {
+  display: inline-flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+/* .sidebar {
+  vertical-align: top;
+  margin-right: 75px;
+} */
+

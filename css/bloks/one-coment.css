@@ -1,0 +1,64 @@
+.one-coment{
+  display: flex;
+}
+
+.one-coment__user{
+  width: 20%;
+  margin-right: 20px;
+}
+
+.one-coment__desc {
+  width: 80%;
+  max-width: 685px;
+  min-height: 166px;
+  
+color: #221f1f;
+font-family: "Gotham Pro";
+font-size: 18px;
+font-weight: 300;
+line-height: 1.7;
+}
+
+.one-coment__icon {
+  min-width: 160px;
+  min-height: 160px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.one-coment__icon-nophoto {
+  margin: 0 auto;
+  background:center center no-repeat #f5f5f5;
+  background-image: url(../../picrures/logo-fig.png);
+  opacity: 0.5;
+}
+
+
+
+.one-coment__icon-pic{
+  max-width: 100%;
+  display: block;
+}
+
+
+.one-coment__date{ 
+color: #656464;
+
+font-size: 14px;
+margin-bottom: 10px;
+font-weight: 300;
+
+
+}
+
+.one-coment__title {
+  
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.one-coment__text {
+  
+  font-weight: 300;
+}

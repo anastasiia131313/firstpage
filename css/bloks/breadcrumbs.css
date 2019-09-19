@@ -1,0 +1,35 @@
+.breadcrumbs {
+  margin-bottom: 30px;
+}
+.breadcrumbs__item {
+  display: inline-block;
+}
+
+.breadcrumbs__link{
+opacity: 0.8;
+color: #221f1f;
+font-family: "Gotham Pro";
+font-style: italic;
+font-size: 14px;
+font-weight: 400;
+line-height: 1,4;
+text-decoration: none;
+}
+.breadcrumbs__link--unactive {
+  opacity: 0.8;
+  text-decoration: underline;
+  color: #ec1e79;
+  font-family: "Gotham Pro";
+font-style: italic;
+font-size: 14px;
+font-weight: 400;
+}
+
+.breadcrumbs__item:before{
+  content: "/"
+}
+
+.breadcrumbs__item:first-child:before {
+  content: ""
+}
+

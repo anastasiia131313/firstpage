@@ -1,0 +1,10 @@
+.banner {
+  background: #27273e;
+  /*width: 100%;*/
+  margin-bottom: 76px;
+}
+
+.banner__pic {
+  display: block;
+  max-width: 100%;
+}

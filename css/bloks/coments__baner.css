@@ -1,0 +1,46 @@
+.coments__baner {
+  min-height: 174px;
+  
+}
+
+.coments__baner-container{
+  position: relative;
+  min-height: 174px;
+ background-image: url(../../comments-pic/pattern.png);
+}
+
+.coments__banner-pic{
+  height: 100%;
+}
+
+.coments__baner-text{
+  display: block;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 611px;
+min-height: 77px;
+color: #ffffff;
+font-family: "Gotham Pro";
+font-size: 18px;
+font-weight: 300;
+line-height: 1.8;
+}
+
+
+.coments__baner-text span {
+color: #ec1e79;
+font-weight: 700;
+min-width: 110px;}
+
+
+/* .coments__baner-text div{
+display: inline-flex;
+flex-wrap: wrap;
+
+} */
+
+.coments__baner-text p{
+text-align: justify;
+}

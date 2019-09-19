@@ -1,0 +1,33 @@
+.footer{
+  background: #27273e;
+  color: #fff;
+  
+}
+
+.footer__container {
+display: flex;
+min-height: 77px;
+}
+
+.footer__text {
+  flex:1;
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.footer__paragraph {
+  font-size: 14px;
+  max-width: 264px;
+}
+
+.footer__logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.logo__footer-img{
+  display: block;
+}
